@@ -5,25 +5,7 @@
  * Denominator
  * 
  * Offers basic arithmetic operations over fractions
- */
-class Fraction {
-    /**
-     * Creates a fraction by providing a numerical numerator and a numerical denominator
-     * @param {Number} numerator the numerator for the fraction. Should be integer
-     * @param {Number} denominator The denominator for the fraction. Should be integer
-     * @throws {Error} If the numerator or denominator are not integers
-     */
-    constructor(numerator,denominator){
-        if(!Number.isInteger(numerator)){
-            throw new Error('The numerator provided is not an integer');
-        }
-        if(!Number.isInteger(denominator)){
-            throw new Error('The denominator provided is not an integer');
-        }
-        this.numerator = numerator;
-        this.denominator = denominator;
-        this._simplify();
-    }
+
 
     /**
      * Method employed internally to simplify fractions. Finds the maximum common divisor of both numerator and denominator
