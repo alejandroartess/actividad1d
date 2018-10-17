@@ -9,16 +9,6 @@
 
 
     /**
-     * Method employed internally to simplify fractions. Finds the maximum common divisor of both numerator and denominator
-     * and divides them both
-     */
-    _simplify(){
-        let mcd = Fraction.mcd(this.numerator,this.denominator);
-        this.numerator = this.numerator/mcd;
-        this.denominator = this.denominator/mcd;
-    }
-
-    /**
      * Static method that finds the maximum common divisor of two numbers
      * @param {Number} x The first number
      * @param {Number} y The second number
