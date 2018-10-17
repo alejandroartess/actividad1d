@@ -5,7 +5,11 @@
  * Denominator
  * 
  * Offers basic arithmetic operations over fractions
+<<<<<<< HEAD
  */
+=======
+
+>>>>>>> funcionalidad1
 
 
     /**
